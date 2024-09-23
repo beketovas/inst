@@ -1,0 +1,9 @@
+.waiting-for-sample {
+    margin-bottom: 20px;
+    .loader {
+        width: 150px;
+        height: 25px;
+        background: url('../images/waiting-for-sample-preloader.gif') no-repeat center;
+        margin-bottom: 20px;
+    }
+}
