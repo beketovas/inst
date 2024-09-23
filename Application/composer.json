@@ -1,0 +1,29 @@
+{
+    "name": "nwidart/application",
+    "description": "",
+    "authors": [
+        {
+            "name": "Stanislav Taranovskyi",
+            "email": "staranovskyi@gmail.com"
+        },
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Application\\Providers\\ApplicationServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Application\\": ""
+        }
+    }
+}

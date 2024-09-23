@@ -1,0 +1,28 @@
+<?php
+
+return [
+    'check_service_settings' => 'Check service settings',
+    'connected' => 'connected',
+    'not_connected' => 'not connected',
+    'let_it_be_connected' => 'Allow to attach :app_name',
+    'stored' => 'Application is stored',
+    'updated' => ':app_name is updated',
+    'connected_successfully' => 'Application is connected successfully',
+    'not_connected_because_of_message' => 'Application is not connected. Error::message',
+    'disconnected_successfully' => 'Application is disconnected successfully',
+    'already_connected' => ':app_name already connected',
+    'you_have_integrations_with_this_account_delete_them' => 'You have integrations with this account. First delete them',
+    'there_are_already_accounts_with_this_user' => 'This account is already linked to another Apiway account. Untie it first.',
+    'choose_account' => 'Choose an account',
+    'choose_property' => 'Choose a counter',
+    'choose_profile' => 'Choose a profile',
+    'choose_goal' => 'Choose a target',
+    'choose_adv_account' => 'Choose an ad account',
+    'choose_audience' => 'Choose audience',
+    'server_did_not_respond_in_time' => 'Server did not respond in time',
+    'choose_currency' => 'Choose currency',
+    'choose_counter' => 'Choose counter',
+    'task_text' => 'Task text *',
+    'all_lists' => 'All lists',
+    'choose_list' => 'Select a list from Unisender',
+];

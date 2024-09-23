@@ -1,0 +1,22 @@
+{
+    "name": "Application",
+    "alias": "application",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Application\\Providers\\ApplicationServiceProvider",
+        "Modules\\Application\\Providers\\ApplicationManagerProvider",
+        "Modules\\Application\\Providers\\ApplicationAccountProvider",
+        "Modules\\Application\\Providers\\ActionRepositoryProvider",
+        "Modules\\Application\\Providers\\IntegrationServiceProvider",
+        "Modules\\Application\\Providers\\ApplicationRepositoryProvider",
+        "Modules\\Application\\Providers\\NodeBuilderProvider",
+        "Modules\\Application\\Providers\\NodeErrorsBuilderProvider",
+        "Modules\\Application\\Providers\\NodeRepositoryProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
