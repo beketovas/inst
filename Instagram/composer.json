@@ -1,0 +1,29 @@
+{
+    "name": "nwidart/instagram",
+    "description": "",
+    "authors": [
+        {
+            "name": "Stanislav Taranovskyi",
+            "email": "staranovskyi@gmail.com"
+        },
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Instagram\\Providers\\InstagramServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Instagram\\": ""
+        }
+    }
+}

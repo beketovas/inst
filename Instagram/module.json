@@ -1,0 +1,14 @@
+{
+    "name": "Instagram",
+    "alias": "instagram",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Instagram\\Providers\\InstagramServiceProvider",
+        "Modules\\Instagram\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
