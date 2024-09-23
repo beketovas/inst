@@ -1,0 +1,21 @@
+{
+    "name": "Integration",
+    "alias": "integration",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Integration\\Providers\\ApplicationNodeManagerProvider",
+        "Modules\\Integration\\Providers\\IntegrationServiceProvider",
+        "Modules\\Integration\\Providers\\EventServiceProvider",
+        "Modules\\Integration\\Providers\\IntegrationProvider",
+        "Modules\\Integration\\Providers\\SynchronizationServiceProvider",
+        "Modules\\Integration\\Providers\\WebhooksProcessingProvider",
+        "Modules\\Integration\\Providers\\IntegrationRepositoryProvider",
+        "Modules\\Integration\\Providers\\IncomingDataPreProcessingHandlerProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

@@ -1,0 +1,29 @@
+{
+    "name": "nwidart/integration",
+    "description": "",
+    "authors": [
+        {
+            "name": "Stanislav Taranovskyi",
+            "email": "staranovskyi@gmail.com"
+        },
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Integration\\Providers\\IntegrationServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Integration\\": ""
+        }
+    }
+}
